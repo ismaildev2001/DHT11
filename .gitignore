@@ -1,0 +1,61 @@
+cat > .gitignore <<'EOF'
+# =====================================
+# PYTHON / DJANGO
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.venv/
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =====================================
+# ANGULAR / NODE.JS
+# =====================================
+node_modules/
+dist/
+.angular/
+out-tsc/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =====================================
+# ARDUINO
+# =====================================
+*.hex
+*.elf
+*.eep
+*.bin
+*.map
+build/
+cmake-build-*/
+
+# =====================================
+# IDE
+# =====================================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# =====================================
+# OS
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+EOF
