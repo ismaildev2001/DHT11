@@ -3,4 +3,4 @@ from rest_framework.response import Response
 from django.http import HttpResponse
 
 def coucou(request):
-    return HttpResponse("Hello Zaid")
+    return HttpResponse("Hello ismail")
